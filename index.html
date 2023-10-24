@@ -71,7 +71,7 @@
              </nav>
         </div>
 
-        <div class="Tarjetas">
+        <div class="ProyectsContainer">
           <p>¿En qué puedo invertir?</p>
           <div>
             <p>Te presentamos las mejores alternativas para generar
@@ -81,9 +81,9 @@
           </div>
         </div>
 
-        <div class="SocialLanding_main">
-          <h1>¿Como funciona Crowdi?</h1>
-          <div class="conteiner1">
+        <div class="socialLanding_main">
+          <h1 class="socialLanding_main-title">¿Como funciona Crowdi?</h1>
+          <div class="container1">
             <div class="grid">
               <h2>Crea tu cuenta personal de Crowdi
               <img src="./img/iconcrowdi.png" alt="Crowdi">
@@ -97,35 +97,35 @@
               <img src="./img/celular.svg" alt="Crowdi">
               </div>
             </div>
-            <div class="Linea">
+            <div class="trazado">
               <div class="trazado">
                 <img src="./img/trazadoAlto.png" alt="">
               </div>
             </div>
-            <div class="grid2">
+            <div class="texto2">
               <h2>Elegí el proyecto que más te guste
                 <img src="./img/iconcrowdi.png" alt="">
               </h2>
               <p>Te acercamos proyectos seleccionados y evaluados objetivamente por expertos en los que podés invertir junto a más personas desde montos mínimos.</p>
             </div>
-            <div class="Edificio">
+            <div class="edificio">
               <div>
                 <img src="./img/edificio.svg" alt="">
               </div>
             </div>
-            <div class="Linea">
+            <div class="trazado2">
               <div class="trazado">
                 <img src="./img/trazadoBajo.png" alt="">
               </div>
             </div>
-            <div class="grid3">
+            <div class="texto3">
               <h2>
                 Transformate hoy en dueño
                 <img src="./img/iconcrowdi.png" alt="">
               </h2>
               <p>Decidí con cuánto querés participar y sumate online de forma segura. Esta es la alternativa más atractiva y conveniente para participar de proyectos de la economía real pensando en tu futuro.</p>
             </div>
-            <div class="Pesos">
+            <div class="pesos">
               <div>
                 <img src="./img/pesos.svg" alt="">
               </div>
@@ -133,7 +133,7 @@
           </div> 
           <div class="container2">
             <h6>¿Querés saber más? Lee nuestras respuestas a </h6>
-            <button class="button is-primary" type="button">Preguntas Frecuentes</button>
+            <button class="button" type="button">Preguntas Frecuentes</button>
           </div>
         </div>
 
@@ -141,29 +141,37 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequatur, nisi dignissimos fugiat similique autem provident et aut aliquam tempore incidunt suscipit nostrum, reiciendis voluptatum? Excepturi reprehenderit similique facere explicabo.</p>
         </div>
 
-        <div class="conteinerCentalLanding">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequatur, nisi dignissimos fugiat similique autem provident et aut aliquam tempore incidunt suscipit nostrum, reiciendis voluptatum? Excepturi reprehenderit similique facere explicabo.</p>
+        <div class="containerCentalLanding">
+          <div class="containerCentralLanding_HeadPhone">
+            <div class="containerCentralLanding_HeadPhone_head">
+              <img class="containerCentralLanding_HeadPhone_img" src="./img/HeadPhone.webp" alt="FotoApp">
+            </div>
+          </div>
+          <div class="containerCentalLanding_text">
+            <div class="textOpprtunity">La mejor oportunidad de inversión al alcance de tu mano.</div>
+            <button class="opotunity_button button" type="button">¡Empezá ahora mismo!</button>
+          </div>
         </div>
 
         
-        <footer class="footer">
-          <div class="containerFooter">
-            <div class="FooterBranding">
-              <div class="BrandingPure">
-                <img src="/img/Crowdi_logo_by_Capitan-01.svg" alt="Crowdi" width="177" height="40.78">
-                <div>
+        <footer class="Footer_footer_main">
+          <div class="Footer_footer_container-wide-center">
+            <div class="Footer_footer_branding">
+              <div class="BrandingPure is-full">
+                <img class="Footer_footer_branding_img" src="/img/Crowdi_logo_by_Capitan-01.svg" alt="Crowdi" width="177" height="40.78">
+                <div class="Footer_footer_branding_txt">
                   <h5>Valor para tu futuro</h5>
                 </div>
               </div>
-              <div class="FooterSocialMedia">
-                <div class="Contact">
+              <div class="Footer_footer_socialMedia is-full">
+                <div class="Footer_footer_socialMedia_contacto">
                   <h6>Contacto</h6>
                   <h3>0810 333 2272</h3>
                   <h6>contacto@crowdi.ar</h6>
                 </div>
-                <div class="SocialIcon">
-                  <a href="https://wa.me/5492615371902">
-                    <img src="./img/whatsapp.svg" alt="whatsapp" width="50" height="30">
+                <div class="Footer_socialIcon">
+                  <a href="https://wa.me/5492615371902" target="_blank">
+                    <img class="Footer_socialIcon_img" src="./img/whatsapp.svg" alt="whatsapp">
                   </a>
                   <a href="https://www.instagram.com/crowdi.io/">
                     <img src="" alt="">
@@ -175,26 +183,28 @@
               </div>
             </div>
 
-            <div class="FotterAdress">
+            <div class="Footer_footer_adress">
               <h6>
+                <!-- -->
                 Av. Emilio Civit Nº 484, 6to piso, Torre Emilia
                 <br>
+                <!-- -->
                 (5500) Ciudad de Mendoza, Argentina
+                <!-- -->
               </h6>
             </div>
 
-            <div class="FooterCopy">
+            <div class="Footer_footer_copyrigh">
               <div>
                 © Crowdi. 2021.Todos los derechos reservados.
-                <span>Términos y condiciones.</span>
-                <span>Política de Privacidad.</span>
+                <span class="Footer_footer_copyrigh_TyC" role="button" tabindex="0">Términos y condiciones.</span>
+                <span class="Footer_footer_copyrigh_PdP" role="button" tabindex="0">Política de Privacidad.</span>
               </div>
               <div></div>
             </div>
 
-            <div class="FooterLitleLetter">
-              <p>Los cálculos de rentabilidad publicados son estimaciones realizadas por CROWDI ARGENTINA S.A. en base a tasaciones y estudios de mercado internos y/o basados en información pública y/o provista por terceras partes. Los proyectos están sujetos a las fluctuaciones de precios y riesgos inherentes al mercado inmobiliario. Se aclara y se deja establecido que CROWDI ARGENTINA S.A. no asegura beneficio ni rentabilidad de ningún tipo ni cuantía. Los potenciales participantes deberán realizar su propio análisis de riesgo; así como también deberán conocer y evaluar la conveniencia de participar en un tipo de negocio que incluye condiciones restricciones contractuales a la transmisibilidad de derechos a terceros desarrolladas en el marco regulatorio y legal de la República Argentina. CROWDI ARGENTINA S.A. no presta ningún tipo de asesoramiento financiero, tampoco realiza ningún tipo de intermediación financiera ni captación de fondos de terceros, lo que es realizado por entidades financieras o agentes debidamente autorizadas.
-              </p>
+            <div class="Footer_footer_littleLetter">
+              Los cálculos de rentabilidad publicados son estimaciones realizadas por CROWDI ARGENTINA S.A. en base a tasaciones y estudios de mercado internos y/o basados en información pública y/o provista por terceras partes. Los proyectos están sujetos a las fluctuaciones de precios y riesgos inherentes al mercado inmobiliario. Se aclara y se deja establecido que CROWDI ARGENTINA S.A. no asegura beneficio ni rentabilidad de ningún tipo ni cuantía. Los potenciales participantes deberán realizar su propio análisis de riesgo; así como también deberán conocer y evaluar la conveniencia de participar en un tipo de negocio que incluye condiciones restricciones contractuales a la transmisibilidad de derechos a terceros desarrolladas en el marco regulatorio y legal de la República Argentina. CROWDI ARGENTINA S.A. no presta ningún tipo de asesoramiento financiero, tampoco realiza ningún tipo de intermediación financiera ni captación de fondos de terceros, lo que es realizado por entidades financieras o agentes debidamente autorizadas.
             </div>
 
           </div>
