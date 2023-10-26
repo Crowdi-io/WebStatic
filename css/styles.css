@@ -47,7 +47,10 @@ body{
 }
 .card{
     border-radius: 30px;
-    border-style: dashed;
+}
+
+.image_card{
+    border-radius: 30px;
 }
 
 
