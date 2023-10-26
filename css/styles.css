@@ -20,11 +20,17 @@ body{
     color: #231a52;
 }
 
+
+
+
 .proyectsContainer{
-    height: 1030px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 800px;
     margin-bottom: 0;
-    overflow: hidden;
-    padding: 0 calc((100% - 1264px) / 2);
+    padding: 0 50px;
 }
 
 .proyectsContainer_title{
@@ -34,6 +40,16 @@ body{
     margin-top: 10%;
     text-align: center;
 }
+
+.card_container{
+    display: flex;
+    gap: 25px;
+}
+.card{
+    border-radius: 30px;
+    border-style: dashed;
+}
+
 
 .socialLanding_main-title{
     text-align: center;
